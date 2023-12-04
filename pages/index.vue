@@ -35,7 +35,7 @@ export default {
     const router = useRouter();
 
     const enterChat = () => {
-      router.push({ name: "Chatroom" });
+      navigateTo("/chatroom");
     };
 
     return { showLogin, enterChat };
